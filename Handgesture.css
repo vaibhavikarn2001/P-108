@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(to right,#30ff78, #fff759,#30ff78);
+}
+.heading{
+    font-family: 'Parisienne', cursive;
+    word-spacing: 10px;
+    font-size: 40px;
+}
+.heading:hover{
+    width:700px;
+}
+b,p{
+    font-family: 'Alfa Slab One', cursive;
+    font-size:30px;
+}
+label{
+    background-color: coral;
+    color:white;
+    font-family: 'Sacramento', cursive;
+    font-size: 25px;
+
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  height: 300px; 
+}
+ 
+
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
